@@ -18,3 +18,12 @@ source myvenv/bin/activate
 ```
 python -m pip install --upgrade pip
 ```
+
+* Pin dependencies using requirements.txt
+```
+fastapi[all]
+diffusers==0.4.0
+transformers
+scipy
+ftfy
+```
