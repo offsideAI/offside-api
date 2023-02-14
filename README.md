@@ -7,3 +7,9 @@
 ```
 python3 -m venv myvenv
 ```
+
+* Activate virtual env as follows
+
+```
+source myvenv/bin/activate
+```
