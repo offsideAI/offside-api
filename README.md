@@ -1,5 +1,17 @@
 # offside-api
 
+## Prerequisites
+
+```
+* Clean anaconda
+conda install anaconda-clean
+
+anaconda-clean
+
+==> conda install -y jupyter
+
+```
+
 ## Steps
 
 * Create virtual env using venv
