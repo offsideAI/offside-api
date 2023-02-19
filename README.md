@@ -2,16 +2,26 @@
 
 ## Steps
 
-* Create virtual env as follows
+* Create virtual env using venv
 
 ```
 python3 -m venv myvenv
-```
 
-* Activate virtual env as follows
 
-```
 source myvenv/bin/activate
+```
+
+* Create virtual env using miniconda (recommended for Mac M1)
+
+```
+brew install miniforge
+conda create --name myvenv python=3.8
+
+
+conda activate myvenv
+
+
+conda deactivate
 ```
 
 * Ensure that you have the latest version of pip in your virtual env
