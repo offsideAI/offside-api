@@ -16,7 +16,7 @@ source myvenv/bin/activate
 
 * Ensure that you have the latest version of pip in your virtual env
 ```
-python -m pip install --upgrade pip
+pip install --upgrade pip
 ```
 
 * Pin dependencies using requirements.txt
