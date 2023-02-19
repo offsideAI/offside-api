@@ -8,7 +8,14 @@ conda install anaconda-clean
 
 anaconda-clean
 
-==> conda install -y jupyter
+conda install pytorch torchvision torchaudio -c pytorch-nightly
+
+conda install jupyter pandas numpy matplotlib scikit-learn tqdm
+
+* Troubleshooting
+conda install -n myvenv ipykernel --update-deps --force-reinstall
+
+pip install ipykernel --upgrade
 
 ```
 
@@ -33,6 +40,8 @@ conda create --name myvenv python=3.8
 conda activate myvenv
 
 
+conda env list
+
 conda deactivate
 ```
 
@@ -42,6 +51,10 @@ pip install --upgrade pip
 ```
 
 * Pin dependencies using requirements.txt
+
+```
+pip install -r requirements.txt
+```
 ```
 fastapi[all]
 diffusers==0.4.0
@@ -51,6 +64,10 @@ ftfy
 ```
 
 * Pin dev dependencies using dev-requirements.txt
+
+```
+pip install -r dev-requirements.txt
+```
 
 ```
 mypy
