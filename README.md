@@ -27,3 +27,12 @@ transformers
 scipy
 ftfy
 ```
+
+* Pin dev dependencies using dev-requirements.txt
+
+```
+mypy
+ruff
+black
+ipykernel
+```
